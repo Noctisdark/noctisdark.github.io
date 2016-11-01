@@ -1,5 +1,9 @@
+html {
+	overflow-x: hidden;
+}
+
 pre.highlight {
-    font-size: 12px !important;
+    font-size: 0.9em !important;
     font-family: Monaco, Menlo, 'Ubuntu Mono', Consolas, source-code-pro, 'Droid Sans Mono', monospace;
     padding: 10px 0 10px 15px;
     border-radius: 3px;
