@@ -56,6 +56,7 @@ will improve your application's performance and make your animation smoothier. I
 for those who use older browser.
 
 Let's start off by setting up a view layer where we will draw all of our graphics.
+
 ```html
 <canvas id="view">
 </canvas>
