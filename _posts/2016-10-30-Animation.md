@@ -4,7 +4,7 @@ title: Animation
 date: 2016-10-30
 ---
 
-This tutorial will try to explain in a simplified matter how to implement 2D animation in the Web.
+This tutorial will try to explain in a simplified manner how to implement 2D animation in the Web.
 I'm going to use the [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) API to
 keep things simple. However you can use any rendering API. So open up your favorite [Text Editor](https://en.wikipedia.org/wiki/Text_editor),
 prepare your coffee and get ready for this adventure.
