@@ -31,19 +31,23 @@ There are different techniques used to achieve computer animations such as [Keyf
 &emsp;Implementing 2D computer animation is fairly simple and straightforward, these are the minimal steps you
 should take to draw every frame.
 
-- Clear the canvas:<br/>
+- Clear the canvas:
+
 Each frame a completely different frame from the last one at the pixel level, so you'll have to clear all previously
 drawn object and prepare for drawing the next frame. the easiest way to this is the use the `clearRect` method.
 
-- Save the canvas state:<br/>
+- Save the canvas state:
+
 To draw anthing on the screen you might will often need to change the canvas state. For example, you need translate the canvas a bit to make
 your character seem to move and them go back to the original state. You can do this using the `save` method in canvas to save the current transformations associated
 with the rendering context.
 
-- Do all your rendering logic here:<br/>
+- Do all your rendering logic here:
+
 This is where you will do all your image processing and rendering here.
 
-- Restore your canvas state:<br/>
+- Restore your canvas state:
+
 If you have saved your last canvas state, you can restore it but calling the `restore` method, which will pop off the last state frame and
 set it as the current one.
 
