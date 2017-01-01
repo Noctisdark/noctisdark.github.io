@@ -11,6 +11,7 @@ gaining a better understanding of this black [magic](https://en.wikipedia.org/wi
 # Introduction:
 
 Consider the following [asynchronous](https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)) Javascript function
+
 ```javascript
 "use strict";
 
